@@ -1,0 +1,59 @@
+.MainA{
+    display:flex;
+    justify-content: space-between;
+}
+.SideBar{
+    display: flex;
+    width: 17%;
+    height: 1rem;
+    
+}
+.SideBar>div{
+    height: auto;
+}
+.Home{
+    border-bottom: 1px black solid;
+}
+.Q_Icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 1rem;
+    padding: 10px;
+}
+.plus{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 1rem;
+}
+/*Main*/
+.Main {
+    display: grid;
+    width: 83%;
+}
+.Main > div{
+    margin: 8px 2px;
+}
+.Videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video {
+    justify-content: space-around;
+    height: 274px;
+    left: 0;
+    width: 250px;
+    margin: 8px;
+}
+.Logo{
+    display: flex;
+}
+.Logo > div{
+    padding: 0 12px;
+}
+.View{
+    font-size: 1.5rem;
+    color:black ;
+}
